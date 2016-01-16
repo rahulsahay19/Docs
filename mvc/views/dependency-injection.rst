@@ -1,7 +1,9 @@
 Injecting a Service Into a View
 ===============================
 
-ASP.NET MVC 6 now supports injection into a view from a class. For this example, we'll create a simple class that exposes the total *todo* count, completed count and average priority. 
+By `Steve Smith`_, et al
+
+ASP.NET MVC 6 supports `dependency injection <https://docs.asp.net/en/latest/fundamentals/dependency-injection.html>`_ into views. For this example, we'll create a simple class that exposes the total *todo* count, completed count and average priority. 
 
 1. Examine the *Services\\StatisticsService.cs* class.
 
