@@ -1,6 +1,6 @@
 .. include:: /../common/stub-topic.txt
 
-|stub-icon| ASP.NET 5 on Nano Server
+|stub-icon| ASP.NET Core 1.0 on Nano Server
 ====================================
 
 .. include:: /../common/stub-notice.txt
