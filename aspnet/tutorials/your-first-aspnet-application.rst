@@ -1,9 +1,9 @@
-Your First ASP.NET 5 Web App Using Visual Studio
+Your First ASP.NET Core 1.0 Web App Using Visual Studio
 ================================================
 
 By `Erik Reitan`_ 
 
-In this tutorial, you’ll create a simple web app using ASP.NET 5. The app stores data in a SQL database using Entity Framework (EF) and uses ASP.NET MVC to support the basic CRUD operations (create, read, update, delete).  
+In this tutorial, you’ll create a simple web app using ASP.NET Core 1.0. The app stores data in a SQL database using Entity Framework (EF) and uses ASP.NET MVC to support the basic CRUD operations (create, read, update, delete).  
 
 .. contents:: In this article:
   :local:
@@ -11,11 +11,11 @@ In this tutorial, you’ll create a simple web app using ASP.NET 5. The app stor
 
 Prerequisites
 -------------
-Before you start, make sure that you have the followed the getting started steps for :doc:`/getting-started/installing-on-windows`. This tutorial assumes you have already installed `Visual Studio 2015 <http://go.microsoft.com/fwlink/?LinkId=532606>`_ and the latest `ASP.NET 5  <http://go.microsoft.com/fwlink/?LinkId=627627>`_ runtime and tooling.
+Before you start, make sure that you have the followed the getting started steps for :doc:`/getting-started/installing-on-windows`. This tutorial assumes you have already installed `Visual Studio 2015 <http://go.microsoft.com/fwlink/?LinkId=532606>`_ and the latest `ASP.NET Core 1.0  <http://go.microsoft.com/fwlink/?LinkId=627627>`_ runtime and tooling.
 
 .. note:: For additional information about installing ASP.NET 5 on other platforms, see :doc:`/getting-started/index`.
 
-Create a new ASP.NET 5 project
+Create a new ASP.NET Core 1.0 project
 ------------------------------
 
 Start Visual Studio 2015. From the **File** menu, select **New** > **Project**. 
@@ -84,7 +84,7 @@ This project uses :ref:`ASP.NET MVC <mvc:index>`. MVC stands for model-view-cont
 	
 Understanding .NET Core
 ^^^^^^^^^^^^^^^^^^^^^^^
-.NET Core 5 is a modular runtime and library implementation that includes a subset of the .NET Framework. .NET Core 5 has been designed for Windows, Linux and OS X. It consists of a set of libraries, called “CoreFX”, and a small, optimized runtime, called “CoreCLR”. .NET Core is open-source, so you can follow progress on the project and contribute to it on GitHub. For more information, see :doc:`/getting-started/choosing-the-right-dotnet`.
+.NET Core 1.0 is a modular runtime and library implementation that includes a subset of the .NET Framework. .NET Core 1.0 has been designed for Windows, Linux and OS X. It consists of a set of libraries, called “CoreFX”, and a small, optimized runtime, called “CoreCLR”. .NET Core is open-source, so you can follow progress on the project and contribute to it on GitHub. For more information, see :doc:`/getting-started/choosing-the-right-dotnet`.
 	 
 Entity Framework
 ----------------
@@ -335,6 +335,6 @@ For additional publishing information, see `Publishing and Deployment <http://do
 
 Additional Resources
 --------------------
-- `Introduction to ASP.NET 5 <http://docs.asp.net/en/latest/conceptual-overview/aspnet.html>`_
-- `Understanding ASP.NET 5 Web Apps <http://docs.asp.net/en/latest/conceptual-overview/understanding-aspnet5-apps.html>`_
-- `ASP.NET 5 Fundamentals <https://docs.asp.net/en/latest/fundamentals/index.html>`_
+- `Introduction to ASP.NET Core 1.0 <http://docs.asp.net/en/latest/conceptual-overview/aspnet.html>`_
+- `Understanding ASP.NET Core 1.0 Web Apps <http://docs.asp.net/en/latest/conceptual-overview/understanding-aspnet5-apps.html>`_
+- `ASP.NET Core 1.0 Fundamentals <https://docs.asp.net/en/latest/fundamentals/index.html>`_
