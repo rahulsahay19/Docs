@@ -1,9 +1,9 @@
-Your First ASP.NET 5 Application on a Mac
+Your First ASP.NET Core 1.0 Application on a Mac
 =========================================
 
 By `Daniel Roth`_, `Steve Smith`_, `Rick Anderson`_
 
-ASP.NET 5 is cross-platform; you can develop and run web apps on Mac OS X, Linux and Windows. This article will show you how to write your first ASP.NET 5 application on a Mac.
+ASP.NET Core 1.0 is cross-platform; you can develop and run web apps on Mac OS X, Linux and Windows. This article will show you how to write your first ASP.NET Core 1.0 application on a Mac.
 
 .. contents:: Sections:
   :local:
@@ -171,4 +171,4 @@ Additional Resources
 
 - `Visual Studio Code <https://code.visualstudio.com>`__
 - :doc:`/client-side/yeoman`
-- :doc:`ASP.NET Fundamentals </fundamentals/index>`
+- :doc:`ASP.NET Core 1.0 Fundamentals </fundamentals/index>`
