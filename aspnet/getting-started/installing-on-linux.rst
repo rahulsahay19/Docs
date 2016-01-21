@@ -1,4 +1,4 @@
-Installing ASP.NET 5 On Linux
+Installing ASP.NET Core 1.0 On Linux
 =============================
 
 By `Daniel Roth`_
@@ -10,9 +10,9 @@ By `Daniel Roth`_
 Install using prebuild binaries
 -------------------------------
 
-Prebuild binaries for ASP.NET 5 are available (`.tar.gz <https://go.microsoft.com/fwlink/?LinkId=703941>`__) and can be installed as appropriate based on your system configuration. 
+Prebuild binaries for ASP.NET Core 1.0 are available (`.tar.gz <https://go.microsoft.com/fwlink/?LinkId=703941>`__) and can be installed as appropriate based on your system configuration. 
 
-Alternatively you can use the .NET Version Manager (DNVM) to install ASP.NET 5 as described below.
+Alternatively you can use the .NET Version Manager (DNVM) to install ASP.NET Core 1.0 as described below.
 
 For either method of installation you will need to install the prerequisites for your specific distribution as described in the following sections.
 
@@ -41,13 +41,13 @@ Install the .NET Execution Environment (DNX)
 
 The .NET Execution Environment (DNX) is used to build and run .NET projects. Use DNVM to install DNX for `Mono <http://mono-project.com>`_ or .NET Core (see :doc:`choosing-the-right-dotnet`).
 
-**To install DNX for .NET Core:**
+**To install DNX for .NET Core 1.0:**
 
 1. Install the DNX prerequisites::
 
     sudo apt-get install libunwind8 gettext libssl-dev libcurl4-openssl-dev zlib1g libicu-dev uuid-dev
 
-2. Use DNVM to install DNX for .NET Core::
+2. Use DNVM to install DNX for .NET Core 1.0::
 
     dnvm upgrade -r coreclr
 
@@ -111,7 +111,7 @@ Install the .NET Execution Environment (DNX)
 
 The .NET Execution Environment (DNX) is used to build and run .NET projects. Use DNVM to install DNX for `Mono <http://mono-project.com>`_ (see :doc:`choosing-the-right-dotnet`).
 
-.. note:: DNX support for .NET Core is not available for CentOS, Fedora and derivative in this release, but will be enabled in a future release.
+.. note:: DNX support for .NET Core 1.0 is not available for CentOS, Fedora and derivative in this release, but will be enabled in a future release.
 
 **To install DNX for Mono:**
 
